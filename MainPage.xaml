@@ -27,34 +27,19 @@
                 FontSize="32"
                 HorizontalOptions="Center" />
             
-            <Label 
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            <Label Text="{Binding Name}"/>
 
             <Button 
                 x:Name="CounterBtn"
                 Text="Click me"
                 SemanticProperties.Hint="Counts the number of times you click"
-                IsVisible="{Binding Button1Visible}"
                 Command="{Binding SetValues1Command}"
                 HorizontalOptions="Center" />
             <Button 
                 x:Name="CounterBtn2"
                 Text="Click me2"
                 SemanticProperties.Hint="Counts the number of times you click"
-                IsVisible="{Binding Button2Visible}"
                 Command="{Binding SetValues2Command}"
-                HorizontalOptions="Center" />
-            
-            <Button 
-                x:Name="CounterBtn3"
-                Text="Click me3"
-                SemanticProperties.Hint="Counts the number of times you click"
-                IsVisible="{Binding Button3Visible}"
-                Command="{Binding SetValues3Command}"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
