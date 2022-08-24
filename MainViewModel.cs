@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
@@ -45,6 +43,8 @@ namespace MauiApp4
 
         public void SetValues1()
         {
+            var x = _service.Value;
+            var xy = _service.Value2;
             Name = "One";
         }
         

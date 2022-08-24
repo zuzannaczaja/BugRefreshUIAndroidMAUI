@@ -2,8 +2,8 @@
 {
     public class Service
     {
-        private bool Value { get; set; }
+        public bool Value { get; set; }
 
-        private bool Value2 { get; set; }
+        public bool Value2 { get; set; }
     }
 }
